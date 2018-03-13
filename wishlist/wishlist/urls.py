@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path(r'', include('travel_wishlist.urls'))
+    path(r'', include('travel_wishlist.urls'))  # delegating urls to travel_wishlist app
 ]

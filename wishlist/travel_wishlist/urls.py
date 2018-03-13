@@ -1,6 +1,7 @@
 from django.conf.urls import url
 from . import views
 
+# urls for app
 urlpatterns = [
     url(r'^$', views.place_list, name='place_list'),
     url(r'^visited$', views.places_visited, name='places_visited'),
